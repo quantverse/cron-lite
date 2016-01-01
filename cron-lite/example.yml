@@ -1,0 +1,6 @@
+- command: uname
+  args: '-s'
+  rule: '@every 5s'
+- command: uname
+  args: '-a'
+  rule: '@every 7s'
